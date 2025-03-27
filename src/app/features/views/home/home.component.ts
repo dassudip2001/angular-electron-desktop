@@ -9,7 +9,7 @@ import { RouterLink } from '@angular/router';
       class="flex flex-col h-screen w-screen items-center justify-center gap-4"
     >
       <h1
-        class="text-4xl font-bold text-center mb-4s bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+        class="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
       >
         Discover Images Through Colors
       </h1>

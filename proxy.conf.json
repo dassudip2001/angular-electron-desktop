@@ -1,0 +1,8 @@
+{
+  "/color": {
+    "target": "https://color-palette-and-image-search-api.onrender.com",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
