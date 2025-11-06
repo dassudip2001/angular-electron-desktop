@@ -1,0 +1,30 @@
+{
+  "appId": "com.opezee.otn",
+  "productName": "On The News",
+  "copyright": "Copyright © 2025 ${author}",
+  "removePackageScripts": true,
+  "generateUpdatesFilesForAllChannels": true,
+  "files": ["web/**/*", "src/**/*", "index.html"],
+  "directories": {
+    "output": "release"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": true,
+    "allowToChangeInstallationDirectory": false,
+    "allowElevation": true,
+    "createDesktopShortcut": true
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64", "ia32"]
+      }
+    ],
+    "icon": "logo.ico",
+    "signtoolOptions": {
+      "publisherName": "Opezee"
+    }
+  }
+}
