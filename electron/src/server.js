@@ -5,7 +5,7 @@ const logger = require("./utils/logger");
 const cors = require("cors");
 
 const drive = process.env.SystemDrive || "C:";
-let baseDirectory = path.join(drive, "cms");
+let baseDirectory = path.join(drive, "otn");
 
 // Listen for messages from the main process (to receive IP)
 process.on("message", (message) => {
